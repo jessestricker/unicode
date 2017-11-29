@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code_point.cpp" />
+    <ClCompile Include="detail_.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code_point.h" />
+    <ClInclude Include="detail_.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C1DA5CB3-FAD6-4D01-9EDA-D3385FDE0BC7}</ProjectGuid>
