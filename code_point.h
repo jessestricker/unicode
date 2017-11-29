@@ -13,6 +13,7 @@ namespace unicode {
         constexpr static code_point min() noexcept;
         constexpr static code_point max() noexcept;
 
+        constexpr code_point() noexcept = default;
         constexpr explicit code_point(value_type value) noexcept;
         constexpr explicit operator value_type() const noexcept;
 
@@ -28,7 +29,7 @@ namespace unicode {
         friend std::ostream& operator<<(std::ostream& os, code_point cp);
 
     private:
-        value_type value_;
+        value_type value_{};
     };
 
     constexpr code_point operator"" _cp(unsigned long long value) noexcept;
