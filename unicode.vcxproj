@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="code_point.h" />
+    <ClInclude Include="decode.h" />
     <ClInclude Include="detail_.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

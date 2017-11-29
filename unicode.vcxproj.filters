@@ -25,5 +25,8 @@
     <ClInclude Include="detail_.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="decode.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
